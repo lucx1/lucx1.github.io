@@ -82,7 +82,7 @@ function cktd() {
 	} else if (d.getDay() == 6) {
 		koreantime[7] = "토요일 ";
 	}
-	document.getElementById("koreandt").innerHTML = "오늘은 " + koreantime[4] + koreantime[5] + koreantime[6] + koreantime[7] + "입니다.<br>지금은 " + koreantime[0] + koreantime[1] + koreantime[2] + koreantime[3] + "입니다.";
+	document.getElementById("koreandt").innerHTML = "오늘은 " + koreantime[4] + koreantime[5] + koreantime[6] + koreantime[7] + "입니다.<br>지금 시간은 " + koreantime[0] + koreantime[1] + koreantime[2] + koreantime[3] + "입니다.";
 }
 function sinonumpt1(x) {
 	if (x < 10) {
